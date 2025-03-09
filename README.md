@@ -10,7 +10,7 @@ MailMate AI is a smart email assistant that helps you generate professional, eng
 - 🔒 **Secure & Private** – Uses Gmail App Passwords for secure authentication.
 
 ## 🚀 Live Demo
-👉 **Try MailMate AI Now:** [Live Project Link](https://mailmate200.streamlit.app/) (Replace with actual link)
+👉 **Try MailMate AI Now:** [Live Project Link](https://mailmate200.streamlit.app/)
 
 ## 🛠️ Installation & Setup
 
