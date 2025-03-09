@@ -1,6 +1,6 @@
-# 📩 MailMate AI - AI-Powered Email Generator
+# 📩 MailMate - AI-Powered Email Generator
 
-MailMate AI is a smart email assistant that helps you generate professional, engaging, and well-structured emails in seconds. Powered by Google's Gemini AI, MailMate AI crafts emails for various occasions, from formal business communication to friendly invitations.
+MailMate is a smart email assistant that helps you generate professional, engaging, and well-structured emails in seconds. Powered by Google's Gemini AI, MailMate crafts emails for various occasions, from formal business communication to friendly invitations.
 
 ## 🌟 Features
 - ✨ **AI-Powered Email Generation** – Generate emails instantly for different tones and purposes.
@@ -41,7 +41,7 @@ MailMate AI is a smart email assistant that helps you generate professional, eng
 
 5. **Run the Application:**
    ```sh
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## 🛡️ Security & Privacy
