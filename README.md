@@ -4,13 +4,16 @@ MailMate is a smart email assistant that helps you generate professional, engagi
 
 ## 🌟 Features
 - ✨ **AI-Powered Email Generation** – Generate emails instantly for different tones and purposes.
+- 📋 **Pre-Built Templates** – Choose from professionally crafted templates for common email scenarios.
+- 📝 **Custom Templates** – Save and reuse your personalized email templates.
 - 🎨 **Beautiful HTML Formatting** – Option to create well-styled HTML emails.
 - 📤 **Email Sending** – Send emails directly via your Gmail account.
 - ⚙️ **Custom Email Settings** – Securely configure your Gmail credentials for seamless email dispatch.
 - 🔒 **Secure & Private** – Uses Gmail App Passwords for secure authentication.
 
 ## 🚀 Live Demo
-👉 **Try MailMate AI Now:** [Live Project Link](https://mailmate7.streamlit.app/)
+- 👉 **Try MailMate AI Now:** [Live Project Link](https://mailmate7.streamlit.app/)
+- 👉 **Watch a Demo** [Demo Link](https://youtu.be/dGSK_Apgkbk)
 
 ## 🛠️ Installation & Setup
 
@@ -47,4 +50,12 @@ MailMate is a smart email assistant that helps you generate professional, engagi
 ## 🛡️ Security & Privacy
 - MailMate AI does **not store** your email credentials.
 - Gmail App Passwords are used for authentication, ensuring security.
-- AI-generated emails are not saved on any server.
+- AI-generated emails and custom templates are saved locally and not stored on any server.
+
+## 📂 Template Management
+- **Pre-Built Templates** – Select from ready-made templates for various use cases (e.g., job applications, sales pitches, invitations).
+- **Custom Templates** – Save frequently used email structures for quick reuse.
+- **Edit & Personalize** – Modify templates before sending to fit your needs.
+
+With **MailMate AI**, you can write and send emails effortlessly! 🚀
+

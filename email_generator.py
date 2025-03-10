@@ -1,9 +1,14 @@
 import google.generativeai as genai
+from dotenv import load_dotenv
+import os
 import re
 
 class EmailGenerator:
     def __init__(self, name="MailMate AI"):
         self.name = name
+        load_dotenv()
+        api_key = os.getenv("GENAI_API_KEY")
+        genai.configure(api_key=api_key)
 
     def generate_email(self, recipient_name, event_name, email_type, special_instructions="", use_html=False):
         """Generates a structured, professional email using AI."""

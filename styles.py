@@ -3,6 +3,173 @@ import streamlit as st
 def load_styles():
     st.markdown("""
     <style>
+    /* Dark Theme Home Page Styling */
+
+/* Feature cards styling */
+.feature-card {
+  background-color: #2d3748;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #4a5568;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #a78bfa;
+}
+
+.feature-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #e2e8f0;
+}
+
+.feature-description {
+  color: #cbd5e0;
+  font-size: 0.95rem;
+}
+
+/* Welcome section styling */
+.welcome-section {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0 30px 0;
+  border-left: 5px solid #8b5cf6;
+  color: #e2e8f0;
+}
+
+.welcome-section h2 {
+  color: #e2e8f0;
+}
+
+.welcome-section ul {
+  color: #cbd5e0;
+}
+
+/* Call to action button */
+.cta-button {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  color: white !important;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+.cta-button:hover {
+  background: linear-gradient(90deg, #7c3aed, #2563eb);
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+}
+
+/* Testimonial section */
+.testimonial {
+  background-color: #2d3748;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-top: 3px solid #3b82f6;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #cbd5e0;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #e2e8f0;
+  text-align: right;
+}
+
+/* Stats counters */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.stat-item {
+  padding: 15px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #8b5cf6;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #cbd5e0;
+  font-size: 0.9rem;
+}
+
+/* How it works section */
+.steps-container {
+  margin: 30px 0;
+}
+
+.step {
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+}
+
+.step-number {
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex-grow: 1;
+}
+
+.step-title {
+  font-weight: 600;
+  color: #e2e8f0;
+  margin-bottom: 5px;
+}
+
+.step-description {
+  color: #cbd5e0;
+  font-size: 0.95rem;
+}
+
+/* Section headers */
+h3 {
+  color: #e2e8f0 !important;
+  border-bottom: 1px solid #4a5568;
+  padding-bottom: 10px;
+  margin-top: 40px !important;
+}
     /* Base styling with better spacing */
 .block-container {
   padding-top: 2rem;

@@ -1,0 +1,31 @@
+{
+    "prebuilt": {
+        "Meeting Request": {
+            "content": "Dear [Recipient Name],\n\nI hope this email finds you well. I would like to request a meeting to discuss [Brief Topic Description]. Your insights would be valuable for our upcoming decisions.\n\nCould we schedule a [Duration] meeting on [Proposed Date/Time]? If this doesn't work for you, please suggest a more convenient time.\n\nThank you for considering my request. I look forward to our conversation.\n\nBest regards,\n[Your Name]",
+            "type": "Formal",
+            "html_format": false
+        },
+        "Job Application Follow-up": {
+            "content": "Dear [Recipient Name],\n\nI hope this email finds you well. I am writing to follow up on my application for the [Position] role that I submitted on [Date].\n\nI remain very interested in the opportunity to join [Company Name] and contribute to your team. I'm particularly excited about [specific aspect of the company/role].\n\nPlease let me know if you need any additional information from my end to support my application.\n\nThank you for your time and consideration.\n\nBest regards,\n[Your Name]",
+            "type": "Formal",
+            "html_format": false
+        },
+        "Thank You - Event": {
+            "content": "Dear [Recipient Name],\n\nThank you so much for organizing [Event Name]. It was a wonderful experience, and I particularly enjoyed [specific aspect of the event].\n\nThe insights shared during the event will be valuable for my [personal/professional] development. I appreciate the effort you put into making this event successful.\n\nLooking forward to attending more such events in the future.\n\nWarm regards,\n[Your Name]",
+            "type": "Thank You",
+            "html_format": false
+        }
+    },
+    "user": {
+        "test": {
+            "content": "Subject: Invitation to [Technical Fest Name]\n\nDear [Recipient Name],\n\nWe hope this email finds you well.\n\nOn behalf of the organizing committee of [Technical Fest Name], we are delighted to invite you to our annual technical fest, [Technical Fest Name], scheduled to be held from [Start Date] to [End Date] at [Venue].\n\n[Technical Fest Name] is a platform designed to foster innovation, collaboration, and knowledge sharing among students, researchers, and industry experts. This year's fest features a diverse range of events, including [List 2-3 prominent events, e.g., coding competitions, robotics workshops, paper presentations].\n\nWe believe your expertise and experience in [Recipient's field of expertise] would be invaluable to our participants. We would be honored if you could attend the fest and share your insights. Detailed information about the events and registration can be found on our website: [Website Address].\n\nShould you have any questions or require further information, please do not hesitate to contact us at [Email Address] or [Phone Number].\n\nWe sincerely hope you will be able to join us for [Technical Fest Name].\n\nSincerely,\n\n[Your Name/Organizing Committee Name]\n[Your Title/Organization]\n[Contact Information]",
+            "type": "Formal",
+            "html_format": false
+        },
+        "custom2": {
+            "content": "dear suraj,\ni want to tel u that ur app is lit!!!",
+            "type": "Formal",
+            "html_format": false
+        }
+    }
+}
